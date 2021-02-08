@@ -51,7 +51,15 @@ $json_decoded = json_decode($json,TRUE);
 <meta name="msapplication-TileImage" content="assets/img/notaris.png" />
 <meta name="google-site-verification" content="Yl_e87WYpkkY0EylbwwHfaWa1AMSYDueXlDwUz9Uwdk" />
 </head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6S03V4DLW2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-6S03V4DLW2');
+</script>
 <body>
 
     <!--========== SCROLL TOP ==========-->

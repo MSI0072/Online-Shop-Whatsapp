@@ -1,0 +1,12 @@
+<!--========== ORDER FUNTION ==========-->
+<script>
+    document.getElementById('submitButton').onclick = function() {
+    var name = document.getElementById('name').innerText,
+     deskripsi = document.getElementById('deskripsi').innerText,
+     harga = document.getElementById('harga').innerText,
+     totalpesanan = document.getElementById('totalpesanan').value,
+     keterangan = document.getElementById('keterangan').value;
+    var text = "Halo admin saya ingin memesan%0ANama Produk : " + name + "%0ADeskripsi : " + deskripsi  + "%0AHarga : " + harga + "%0ATotal pesanan : " + totalpesanan + "%0AKeterangan : " + keterangan;
+    location.href = "https://wa.me/62881026575149?text=" + text;
+};
+    </script>

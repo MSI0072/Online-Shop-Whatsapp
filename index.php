@@ -24,7 +24,31 @@ $json_decoded = json_decode($json,TRUE);
 <!--========== CSS ==========-->
 <link rel="stylesheet" href="assets/css/styles.css">
 
-<title>Responsive website food</title>
+<title>NOTARIS NURUL FADILAH, S.H.</title>
+<meta name="description" content="NOTARIS NURUL FADILAH, S.H">
+<meta name="keywords" content="NOTARIS, PPAT, SERTIFIKAT TANAH">
+<meta name="author" content="NURUL FADILAH">
+<meta property="og:image:width" content="300"/>
+<meta property="og:image:height" content="425"/>
+<meta property="og:image:type" content="image/jpeg"/>
+<meta property="og:image" content="assets/img/notaris.png"/>
+<meta name="googlebot" content="index,follow" />
+<meta name="robots" content="noodp">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<link rel="canonical" href="https://nurulfadilah.herokuapp.com/" />
+<meta property="og:locale" content="id_ID" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="NOTARIS NURUL FADILAH, S.H. - PEJABAT PEMBUAT AKTA TANAH" />
+<meta property="og:description" content="NOTARIS NURUL FADILAH, S.H" />
+<meta property="og:url" content="https://nurulfadilah.herokuapp.com/" />
+<meta property="og:site_name" content="NOTARIS NURUL FADILAH, S.H. - PEJABAT PEMBUAT AKTA TANAH" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@nurul_fadilah" />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="icon" href="assets/img/notaris.png" sizes="32x32" />
+<link rel="icon" href="assets/img/notaris.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="assets/img/notaris.png" />
+<meta name="msapplication-TileImage" content="assets/img/notaris.png" />
 </head>
 
 <body>
@@ -37,7 +61,7 @@ $json_decoded = json_decode($json,TRUE);
     <!--========== HEADER ==========-->
     <header class="l-header" id="header">
         <nav class="nav bd-container">
-            <a href="#" class="nav__logo">Tasty</a>
+            <a href="../" class="nav__logo">NOTARIS NURUL FADILAH, S.H.</a>
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
@@ -62,12 +86,12 @@ $json_decoded = json_decode($json,TRUE);
         <section class="home" id="home">
             <div class="home__container bd-container bd-grid">
                 <div class="home__data">
-                    <h1 class="home__title">Tasty food</h1>
-                    <h2 class="home__subtitle">Try the best food of <br> the week.</h2>
-                    <a href="#" class="button">View Menu</a>
+                    <h1 class="home__title">NOTARIS</h1>
+                    <h2 class="home__subtitle">Pejabat Pembuat Akta Tanah</h2>
+                    <a href="#menu" class="button">View Menu</a>
                 </div>
 
-                <img src="assets/img/home.png" alt="" class="home__img">
+                <img src="assets/img/notaris.png" alt="" class="home__img">
             </div>
         </section>
 
@@ -76,13 +100,12 @@ $json_decoded = json_decode($json,TRUE);
             <div class="about__container  bd-grid">
                 <div class="about__data">
                     <span class="section-subtitle about__initial">About us</span>
-                    <h2 class="section-title about__initial">We cook the best <br> tasty food</h2>
-                    <p class="about__description">We cook the best food in the entire city, with excellent customer
-                        service, the best meals and at the best price, visit us.</p>
+                    <h2 class="section-title about__initial">Pejabat Pembuat Akta Tanah</h2>
+                    <p class="about__description">Notaris memiliki tugas pokok untuk membuat akta autentik mengenai semua perbuatan, perjanjian, dan ketetapan yang diharuskan oleh peraturan perundang-undangan, menjamin kepastian tanggal pembuatan akta, menyimpan akta, dan memberikan salinan atau kutipan akta.</p>
                     <a href="#" class="button">Explore history</a>
                 </div>
 
-                <img src="assets/img/about.jpg" alt="" class="about__img">
+                <img src="assets/img/sertifikat-tanah.jpg" alt="sertifikat-tanah" class="about__img">
             </div>
         </section>
 
@@ -154,9 +177,8 @@ $json_decoded = json_decode($json,TRUE);
                             16.8875 47.057C17.3045 47.4744 17.9811 47.4746 18.3984 47.0576C18.8157 
                             46.6405 18.816 45.964 18.3989 45.5466Z" />
                     </svg>
-                    <h3 class="services__title">Excellent food</h3>
-                    <p class="services__description">We offer our clients excellent quality services for many years,
-                        with the best and delicious food in the city.</p>
+                    <h3 class="services__title">Berkesinambungan & Tepercaya</h3>
+                    <p class="services__description">Berkesinambungan dan Tepercaya adalah dua tujuan kami, untuk menjadi Notaris terbaik di Kota Pasuruan. Komitmen kami akan kualitas dan layanan adalah landasan untuk membangun tradisi keunggulan dan memberikan nilai tambah bagi klien.</p>
                 </div>
 
                 <div class="services__content">
@@ -202,7 +224,7 @@ $json_decoded = json_decode($json,TRUE);
                             13.0575C23.338 13.1899 22.9013 13.3533 22.4634 13.5135C22.205 13.6075 21.9434 13.6854 21.6881 
                             13.7901C21.1542 14.0037 20.6363 14.2557 20.1173 14.512C19.9667 14.5867 19.8108 14.6444 19.6613 
                             14.7256C19.0408 15.0459 18.446 15.4037 17.864 15.7742C7.77422 22.2215 4.26621 35.2991 9.77477 
-                            45.9303C9.78332 45.9474 9.78972 45.9645 9.79827 45.9805C9.81963 46.0211 9.84632 46.0574 9.86661 
+                            4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyFTLRNyDmT1a1boZV 
                             46.0979C12.6976 51.506 17.5617 55.5673 23.3882 57.3877C23.4202 57.3983 23.4523 57.4037 23.4833 
                             57.4133C24.1154 57.6098 24.7519 57.7732 25.3916 57.9141C25.6222 57.9654 25.854 58.0049 26.0857 
                             58.0497C26.5395 58.1352 26.9945 58.2099 27.4505 58.2633C27.7046 58.2954 27.9577 58.3263 28.2119 
@@ -213,7 +235,7 @@ $json_decoded = json_decode($json,TRUE);
                             57.6119C36.677 57.5713 36.8233 57.534 36.9685 57.4902C37.5836 57.3065 38.1913 57.094 38.7936 
                             56.858C38.9281 56.8046 39.0605 56.7512 39.194 56.6935C39.8241 56.4319 40.4488 56.1521 41.0607 
                             55.8392C46.5215 53.0152 50.6262 48.1245 52.4604 42.2568C52.4924 42.1564 52.5106 42.0539 52.5405 
-                            41.9535C52.7274 41.3352 52.8961 40.7158 53.0296 40.0911C53.0819 39.8455 53.1107 39.5988 53.1545 
+                            4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyFTLRNyDmT1a1boZV 
                             39.3521C53.2421 38.8673 53.3318 38.3835 53.3884 37.8966C53.4204 37.6189 53.429 37.3413 53.4514 
                             37.0626C53.4866 36.6066 53.5251 36.1516 53.5336 35.6967C53.54 35.402 53.524 35.1083 53.5187 
                             34.8136C53.5101 34.3768 53.5027 33.9401 53.4685 33.5044C53.445 33.1979 53.4023 32.8935 53.367 
@@ -233,7 +255,7 @@ $json_decoded = json_decode($json,TRUE);
                             21.6297 42.2268 20.7451C42.2268 19.8605 42.944 19.1433 43.8287 19.1433C44.7133 19.1433 45.4305 
                             19.8605 45.4305 20.7451C45.4305 21.6299 44.7133 22.3469 43.8287 22.3469ZM47.5673 20.8583C47.5673 
                             20.8188 47.5791 20.7825 47.5791 20.743C47.5884 18.6876 45.9297 17.0139 43.8744 17.0046C42.7351 16.9994 
-                            41.6562 17.5164 40.9464 18.4075L42.1136 14.672C43.4742 16.2298 45.84 16.3897 47.3979 15.0292C48.9557 
+                            4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyFTLRNyDmT1a1boZV.9557 
                             13.6686 49.1156 11.3028 47.7551 9.74493C46.8342 8.69052 45.4021 8.23774 44.0424 8.57119L44.2944 
                             7.77561C44.4759 7.84289 44.6607 7.90482 44.8401 7.97744C45.0857 8.07675 45.3302 8.17714 45.5705 
                             8.28499C45.9379 8.44945 46.2967 8.62778 46.6523 8.81253C46.8744 8.92786 47.0997 9.03999 47.3176 
@@ -247,10 +269,10 @@ $json_decoded = json_decode($json,TRUE);
                             12.0664 53.8946 11.7118C53.7355 11.5399 53.5859 11.3594 53.4215 11.1918C52.9271 10.6877 52.4145 10.204 51.8763 
                             9.748L51.8602 9.73305C51.3167 9.27386 50.7486 8.8435 50.1634 8.43663C49.9722 8.30421 49.7704 8.18781 49.576 
                             8.06074C49.1724 7.79697 48.7655 7.53854 48.3448 7.3004C48.1034 7.16478 47.8546 7.04304 47.6079 6.91489C47.2139 
-                            6.71093 46.8177 6.51337 46.4108 6.33076C46.1428 6.21222 45.8715 6.10223 45.5981 5.9933C45.3771 5.90467 45.1646 
+                            6.71093 4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyFTLRNyDmT1a1boZV45.1646 
                             5.80108 44.9403 5.71886L45.9783 2.42229C51.9362 4.55766 56.9208 8.77582 60.0125 14.2983L56.9829 15.8937Z" />
                             <path d="M25.6746 17.0076C23.6103 17.0076 21.937 18.6809 21.937 20.7452C21.937 22.8094 23.6103 24.4828 25.6746 
-                            24.4828C27.7388 24.4828 29.4122 22.8094 29.4122 20.7452C29.4122 18.6809 27.7388 17.0076 25.6746 17.0076ZM25.6746 
+                            24.4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyFTLRNyDmT1a1boZV.0076ZM25.6746 
                             22.347C24.7899 22.347 24.0727 21.6298 24.0727 20.7452C24.0727 19.8606 24.7899 19.1433 25.6746 19.1433C26.5592 
                             19.1433 27.2764 19.8606 27.2764 20.7452C27.2764 21.6299 26.5592 22.347 25.6746 22.347Z" />
                             <path d="M14.9957 26.6185C12.9315 26.6185 11.2581 28.2919 11.2581 30.3561C11.2581 32.4204 12.9315 34.0938 14.9957 
@@ -265,11 +287,11 @@ $json_decoded = json_decode($json,TRUE);
                             <path
                                 d="M36.3534 45.8406C34.2892 45.8406 32.6158 47.514 32.6158 49.5782C32.6158 51.6424 34.2892 53.3158 
                             36.3534 53.3158C38.4177 53.3158 40.0911 51.6424 40.0911 49.5782C40.0911 47.514 38.4177 45.8406 36.3534 
-                            45.8406ZM36.3534 51.18C35.4688 51.18 34.7516 50.4628 34.7516 49.5782C34.7516 48.6936 35.4688 47.9764 
+                            4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyFTLRNyDmT1a1boZV.9764 
                             36.3534 47.9764C37.2381 47.9764 37.9553 48.6936 37.9553 49.5782C37.9553 50.4629 37.2381 51.18 36.3534 51.18Z" />
                             <path d="M43.8287 38.3654C41.7644 38.3654 40.091 40.0387 40.091 42.103C40.091 44.1672 41.7644 45.8406 43.8287 
-                            45.8406C45.8929 45.8406 47.5663 44.1672 47.5663 42.103C47.5663 40.0387 45.8929 38.3654 43.8287 38.3654ZM43.8287 
-                            43.7048C42.944 43.7048 42.2268 42.9876 42.2268 42.103C42.2268 41.2184 42.944 40.5011 43.8287 40.5011C44.7133 
+                            4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyFTLRNyDmT1a1boZV38.3654ZM43.8287 
+                            4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyFTLRNyDmT1a1boZV.5011C44.7133 
                             40.5011 45.4305 41.2184 45.4305 42.103C45.4305 42.9877 44.7133 43.7048 43.8287 43.7048Z" />
                             <path d="M47.0323 29.8223C44.9681 29.8223 43.2947 31.4956 43.2947 33.5599C43.2947 35.6241 44.9681 37.2975 47.0323 
                             37.2975C49.0966 37.2975 50.7699 35.6241 50.7699 33.5599C50.7699 31.4956 49.0966 29.8223 47.0323 29.8223ZM47.0323 
@@ -277,23 +299,23 @@ $json_decoded = json_decode($json,TRUE);
                             31.958 48.6342 32.6753 48.6342 33.5599C48.6342 34.4446 47.9169 35.1617 47.0323 35.1617Z" />
                             <path
                                 d="M16.0636 37.2975C13.9993 37.2975 12.326 38.9709 12.326 41.0351C12.326 43.0993 13.9993 44.7727 16.0636 
-                            44.7727C18.1278 44.7727 19.8012 43.0993 19.8012 41.0351C19.8012 38.9709 18.1278 37.2975 16.0636 37.2975ZM16.0636 
+                            4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyFTLRNyDmT1a1boZV 37.2975ZM16.0636 
                             42.6369C15.179 42.6369 14.4617 41.9197 14.4617 41.0351C14.4617 40.1505 15.179 39.4333 16.0636 39.4333C16.9482 
                             39.4333 17.6654 40.1505 17.6654 41.0351C17.6654 41.9198 16.9482 42.6369 16.0636 42.6369Z" />
                             <path d="M33.1498 36.2296C31.0856 36.2296 29.4122 37.903 29.4122 39.9672C29.4122 42.0314 31.0856 43.7048 33.1498 
-                            43.7048C35.214 43.7048 36.8874 42.0314 36.8874 39.9672C36.8874 37.903 35.214 36.2296 33.1498 36.2296ZM33.1498 
-                            41.5691C32.2652 41.5691 31.5479 40.8518 31.5479 39.9672C31.5479 39.0826 32.2652 38.3654 33.1498 38.3654C34.0344 
+                            4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyFTLRNyDmT1a1boZV.2296ZM33.1498 
+                            4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyFTLRNyDmT1a1boZV 38.3654C34.0344 
                             38.3654 34.7516 39.0826 34.7516 39.9672C34.7516 40.852 34.0344 41.5691 33.1498 41.5691Z" />
                             <path d="M23.5388 45.8406C21.4746 45.8406 19.8012 47.514 19.8012 49.5782C19.8012 51.6424 21.4746 53.3158 23.5388 
                             53.3158C25.603 53.3158 27.2764 51.6424 27.2764 49.5782C27.2764 47.514 25.603 45.8406 23.5388 45.8406ZM23.5388 
                             51.18C22.6542 51.18 21.937 50.4628 21.937 49.5782C21.937 48.6936 22.6542 47.9764 23.5388 47.9764C24.4234 
                             47.9764 25.1406 48.6936 25.1406 49.5782C25.1406 50.4629 24.4234 51.18 23.5388 51.18Z" />
                             <path d="M17.6654 22.347C17.0757 22.347 16.5975 22.8252 16.5975 23.4149C16.5975 24.0047 17.0757 24.4828 17.6654 
-                            24.4828C18.2551 24.4828 18.7333 24.961 18.7333 25.5507C18.7333 26.1405 19.2114 26.6186 19.8012 26.6186C20.3909 
+                            24.4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyFTLRNyDmT1a1boZV6186C20.3909 
                             26.6186 20.8691 26.1405 20.8691 25.5507C20.8691 23.7815 19.4348 22.347 17.6654 22.347Z" />
                             <path
                                 d="M31.5479 44.7727C29.7786 44.7727 28.3443 46.207 28.3443 47.9764C28.3443 48.5661 28.8224 49.0443 29.4122 
-                            49.0443C30.0019 49.0443 30.4801 48.5661 30.4801 47.9764C30.4801 47.3866 30.9582 46.9085 31.5479 46.9085C32.1377 
+                            4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyFTLRNyDmT1a1boZV 46.9085C32.1377 
                             46.9085 32.6158 46.4303 32.6158 45.8406C32.6158 45.2509 32.1377 44.7727 31.5479 44.7727Z" />
                             <path d="M33.8135 16.252C33.3962 15.835 32.72 15.8353 32.303 16.2526C31.8806 16.6564 31.2153 16.6564 30.793 
                             16.2526C30.3759 15.8353 29.6997 15.835 29.2824 16.252C28.8651 16.6691 28.8649 17.3453 29.2819 17.7626C30.5327 
@@ -306,7 +328,7 @@ $json_decoded = json_decode($json,TRUE);
                             <path d="M24.8292 36.0997C24.8287 36.0992 24.8283 36.0988 24.8277 36.0982C24.4105 35.6812 23.7342 35.6815 23.3172 
                             36.0988C22.9002 36.516 22.9005 37.1923 23.3177 37.6093C23.7346 38.0263 23.7346 38.7023 23.3177 39.1193C22.9002 
                             39.5358 22.8993 40.212 23.3159 40.6295C23.3161 40.6298 23.3164 40.6301 23.3167 40.6303C23.7334 41.0476 24.4097 
-                            41.048 24.8269 40.6311C24.8272 40.6309 24.8275 40.6306 24.8277 40.6303C26.0793 39.3797 26.0798 37.3513 24.8292 
+                            4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyFTLRNyDmT1a1boZV37.3513 24.8292 
                             36.0997Z" />
                             <path d="M50.7699 13.804C50.1802 13.804 49.702 14.2821 49.702 14.8718C49.702 15.4616 49.2239 15.9397 48.6342 
                             15.9397C48.0444 15.9397 47.5663 16.4179 47.5663 17.0076C47.5663 17.5974 48.0444 18.0755 48.6342 18.0755C50.4035 
@@ -318,9 +340,8 @@ $json_decoded = json_decode($json,TRUE);
                             </clipPath>
                         </defs>
                     </svg>
-                    <h3 class="services__title">Fast food</h3>
-                    <p class="services__description">We offer our clients excellent quality services for many years,
-                        with the best and delicious food in the city.</p>
+                    <h3 class="services__title">Komitmen Layanan</h3>
+                    <p class="services__description">Bagi kami, klien adalah salah satu prioritas utama kami. Kantor kami didirikan atas dasar komitmen keunggulan layanan. Kami berupaya memahami kebutuhan klien dan merespon setiap permintaan secara proaktif. Dengan mengutamakan kepuasan klien, kami memastikan klien mendapat produk berkualitas dan layanan terbaik.</p>
                 </div>
 
                 <div class="services__content">
@@ -353,19 +374,19 @@ $json_decoded = json_decode($json,TRUE);
                             20.2852 46.3696 19.8103 45.9905 19.4259L38.708 12.1435C38.1096 11.5414 37.2951 11.204 36.4457 
                             11.2061H10.6654C10.0764 11.2061 9.59888 11.6836 9.59888 12.2726V16.5388H0V18.6719H9.59888V21.8715H7.4658V24.0046H9.59888V26.1377H4.26617V28.2707H9.59888V37.8696C9.00989 
                             37.8696 8.53234 38.3472 8.53234 38.9362V48.535C8.53234 48.5574 8.54432 48.5767 8.54536 48.6001C8.55161 
-                            48.6965 8.57088 48.7918 8.60264 48.8829C8.61254 48.9168 8.62451 48.9501 8.63805 48.9829C8.68805 49.0949 
+                            4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyFTLRNyDmT1a1boZV 49.0949 
                             8.75679 49.1969 8.84168 49.285L12.8178 53.2611C12.9198 54.6749 13.4911 56.0149 14.441 57.0674H0V59.2005H63.9925ZM44.1016 50.6681H25.2236C25.0929 
                             50.2984 24.9278 49.9411 24.731 49.6016H44.5943C44.3974 49.9411 44.2323 50.2984 44.1016 50.6681ZM25.597 
                             52.8012H43.7282C43.7288 54.3776 44.3141 55.8977 45.3708 57.0674H23.9545C25.0111 55.8977 25.5965 54.3776 
                             25.597 52.8012ZM45.8613 52.8012C45.8613 50.4452 47.7715 48.535 50.1275 48.535C52.4835 48.535 54.3937 
-                            50.4452 54.3937 52.8012C54.3937 55.1572 52.4835 57.0674 50.1275 57.0674C47.7715 57.0674 45.8613 55.1572 45.8613 
+                            50.4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyFTLRNyDmT1a1boZV.1572 45.8613 
                             52.8012ZM56.2898 51.0946C56.145 50.5723 55.9336 50.0703 55.6607 49.6016H58.9093L56.2898 51.0946ZM61.6662 
                             37.8696H51.194V27.2042H59.8894L61.6662 37.8696ZM59.4269 25.0711H50.1275C49.5385 25.0711 49.0609 25.5487 
                             49.0609 26.1377V38.9362C49.0609 39.5252 49.5385 40.0027 50.1275 40.0027H61.8595V42.1358H58.6598V44.2689H61.8595V47.4685H53.6578C51.519 
                             46.0463 48.736 46.0463 46.5972 47.4685H22.7281C20.5893 46.0463 17.8063 46.0463 15.6674 
                             47.4685H10.6654V43.2023H14.9316V41.0692H10.6654V40.0027H45.8613C46.4503 40.0027 46.9279 
                             39.5252 46.9279 38.9362V22.938H58.8937L59.4269 25.0711ZM11.732 28.2707H20.2643V26.1377H11.732V24.0046H21.3308V21.8715H11.732V18.6719H17.0647V16.5388H11.732V13.3391H36.4457C36.7285 
-                            13.3402 36.9993 13.4527 37.1998 13.6516L44.4823 20.9341C44.6828 21.1341 44.7948 21.4059 44.7948 21.6892V37.8696H11.732V28.2707ZM13.6646 
+                            13.3402 36.9993 13.4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyFTLRNyDmT1a1boZV.732V28.2707ZM13.6646 
                             49.6016C13.4766 49.9255 13.3177 50.2661 13.1901 50.6181L12.1736 49.6016H13.6646ZM14.9316 
                             52.8012C14.9316 50.4452 16.8418 48.535 19.1978 48.535C21.5537 48.535 23.4639 50.4452 23.4639 
                             52.8012C23.4639 55.1572 21.5537 57.0674 19.1978 57.0674C16.8418 57.0674 14.9316 55.1572 14.9316 52.8012Z" />
@@ -376,9 +397,8 @@ $json_decoded = json_decode($json,TRUE);
                             </clipPath>
                         </defs>
                     </svg>
-                    <h3 class="services__title">Delivery</h3>
-                    <p class="services__description">We offer our clients excellent quality services for many years,
-                        with the best and delicious food in the city.</p>
+                    <h3 class="services__title">Chat Bantuan 24/7/365</h3>
+                    <p class="services__description">Kami siap membantu Anda dalam mengatasi berbagai permasalahan. Kapan pun Anda butuh bantuan, segera hubungi kami.</p>
                 </div>
             </div>
         </section>
@@ -456,12 +476,11 @@ $json_decoded = json_decode($json,TRUE);
                 <div class="contact__data">
                     <span class="section-subtitle contact__initial">Let's talk</span>
                     <h2 class="section-title contact__initial">Contact us</h2>
-                    <p class="contact__description">If you want to reserve a table in our restaurant, contact us and we
-                        will attend you quickly, with our 24/7 chat service.</p>
+                    <p class="contact__description">Jika Anda ingin berkonsultasi di kantor kami, hubungi kami dan kami akan segera melayani Anda, dengan layanan obrolan 24/7 kami.</p>
                 </div>
 
                 <div class="contact__button">
-                    <a href="#" class="button">Contact us now</a>
+                    <a href="https://wa.me/62811366394" class="button">Contact us now</a>
                 </div>
             </div>
         </section>
@@ -471,8 +490,8 @@ $json_decoded = json_decode($json,TRUE);
     <footer class="footer section bd-container">
         <div class="footer__container bd-grid">
             <div class="footer__content">
-                <a href="#" class="footer__logo">Tasty Food</a>
-                <span class="footer__description">Restaurant</span>
+                <a href="#" class="footer__logo">NOTARIS NURUL FADILAH, S.H</a>
+                <span class="footer__description">Pejabat Pembuat Akta Tanah</span>
                 <div>
                     <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
                     <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
@@ -481,12 +500,12 @@ $json_decoded = json_decode($json,TRUE);
             </div>
 
             <div class="footer__content">
-                <h3 class="footer__title">Services</h3>
+                <h3 class="footer__title">Menu</h3>
                 <ul>
-                    <li><a href="#" class="footer__link">Delivery</a></li>
-                    <li><a href="#" class="footer__link">Pricing</a></li>
-                    <li><a href="#" class="footer__link">Fast food</a></li>
-                    <li><a href="#" class="footer__link">Reserve your spot</a></li>
+                    <li><a href="#home" class="footer__link">Home</a></li>
+                    <li><a href="#about" class="footer__link">About</a></li>
+                    <li><a href="#services" class="footer__link">Services</a></li>
+                    <li><a href="#contact" class="footer__link">Contact us</a></li>
                 </ul>
             </div>
 
@@ -494,7 +513,7 @@ $json_decoded = json_decode($json,TRUE);
                 <h3 class="footer__title">Information</h3>
                 <ul>
                     <li><a href="#" class="footer__link">Event</a></li>
-                    <li><a href="#" class="footer__link">Contact us</a></li>
+                    <li><a href="#contact" class="footer__link">Contact us</a></li>
                     <li><a href="#" class="footer__link">Privacy policy</a></li>
                     <li><a href="#" class="footer__link">Terms of services</a></li>
                 </ul>
@@ -503,15 +522,15 @@ $json_decoded = json_decode($json,TRUE);
             <div class="footer__content">
                 <h3 class="footer__title">Adress</h3>
                 <ul>
-                    <li>Lima - Peru</li>
-                    <li>Jr Union #999</li>
-                    <li>999 - 888 - 777</li>
-                    <li>tastyfood@email.com</li>
+                    <li>Pasuruan - Jawa Timur</li>
+                    <li>Jl. Panglima Sudirman No.120</li>
+                    <li>(0343) 419960</li>
+                    <li>nurulnot@yahoo.com</li>
                 </ul>
             </div>
         </div>
 
-        <p class="footer__copy">&#169; 2020 Bedimcode. All right reserved</p>
+        <p class="footer__copy">&#169; 2021 Notaris Nurul Fadilah, S.H. . All right reserved</p>
     </footer>
 
     <!--========== SCROLL REVEAL ==========-->

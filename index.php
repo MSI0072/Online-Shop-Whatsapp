@@ -49,6 +49,7 @@ $json_decoded = json_decode($json,TRUE);
 <link rel="icon" href="assets/img/notaris.png" sizes="192x192" />
 <link rel="apple-touch-icon" href="assets/img/notaris.png" />
 <meta name="msapplication-TileImage" content="assets/img/notaris.png" />
+<meta name="google-site-verification" content="Yl_e87WYpkkY0EylbwwHfaWa1AMSYDueXlDwUz9Uwdk" />
 </head>
 
 <body>

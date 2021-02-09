@@ -9,46 +9,36 @@ $json_decoded = json_decode($json,TRUE);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOTARIS NURUL FADILAH, S.H.</title>
+    <!-- Primary Meta Tags -->
+    <title>Meta Tags — Preview, Edit and Generate</title>
+    <meta name="title" content="NOTARIS NURUL FADILAH, S.H.">
+    <meta name="description" content="NOTARIS NURUL FADILAH, S.H. - Pejabat Pembuat Akta Tanah">
+    <meta name="keywords" content="NOTARIS, PPAT, SERTIFIKAT TANAH">
+    <meta name="author" content="NURUL FADILAH">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nurulfadilah.herokuapp.com/">
+    <meta property="og:title" content="NOTARIS NURUL FADILAH, S.H.">
+    <meta property="og:description" content="NOTARIS NURUL FADILAH, S.H. - Pejabat Pembuat Akta Tanah">
+    <meta property="og:image" content="assets/img/notaris.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://nurulfadilah.herokuapp.com/">
+    <meta property="twitter:title" content="NOTARIS NURUL FADILAH, S.H.">
+    <meta property="twitter:description" content="NOTARIS NURUL FADILAH, S.H. - Pejabat Pembuat Akta Tanah">
+    <meta property="twitter:image" content="assets/img/notaris.png">
 
     <!--========== BOX ICONS ==========-->
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
-        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
-        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous">
-    </script>
-</head>
-<!--========== CSS ==========-->
-<link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
 
-<title>NOTARIS NURUL FADILAH, S.H.</title>
-<meta name="description" content="NOTARIS NURUL FADILAH, S.H">
-<meta name="keywords" content="NOTARIS, PPAT, SERTIFIKAT TANAH">
-<meta name="author" content="NURUL FADILAH">
-<meta property="og:image:width" content="300"/>
-<meta property="og:image:height" content="425"/>
-<meta property="og:image:type" content="image/jpeg"/>
-<meta property="og:image" content="assets/img/notaris.png"/>
-<meta name="googlebot" content="index,follow" />
-<meta name="robots" content="noodp">
-<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<link rel="canonical" href="https://nurulfadilah.herokuapp.com/" />
-<meta property="og:locale" content="id_ID" />
-<meta property="og:type" content="website" />
-<meta property="og:title" content="NOTARIS NURUL FADILAH, S.H. - PEJABAT PEMBUAT AKTA TANAH" />
-<meta property="og:description" content="NOTARIS NURUL FADILAH, S.H" />
-<meta property="og:url" content="https://nurulfadilah.herokuapp.com/" />
-<meta property="og:site_name" content="NOTARIS NURUL FADILAH, S.H. - PEJABAT PEMBUAT AKTA TANAH" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:site" content="@nurul_fadilah" />
-<link rel='dns-prefetch' href='//s.w.org' />
-<link rel="icon" href="assets/img/notaris.png" sizes="32x32" />
-<link rel="icon" href="assets/img/notaris.png" sizes="192x192" />
-<link rel="apple-touch-icon" href="assets/img/notaris.png" />
-<meta name="msapplication-TileImage" content="assets/img/notaris.png" />
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
@@ -101,7 +91,10 @@ $json_decoded = json_decode($json,TRUE);
                 <div class="about__data">
                     <span class="section-subtitle about__initial">About us</span>
                     <h2 class="section-title about__initial">Pejabat Pembuat Akta Tanah</h2>
-                    <p class="about__description">Notaris memiliki tugas pokok untuk membuat akta autentik mengenai semua perbuatan, perjanjian, dan ketetapan yang diharuskan oleh peraturan perundang-undangan, menjamin kepastian tanggal pembuatan akta, menyimpan akta, dan memberikan salinan atau kutipan akta.</p>
+                    <p class="about__description">Notaris memiliki tugas pokok untuk membuat akta autentik mengenai
+                        semua perbuatan, perjanjian, dan ketetapan yang diharuskan oleh peraturan perundang-undangan,
+                        menjamin kepastian tanggal pembuatan akta, menyimpan akta, dan memberikan salinan atau kutipan
+                        akta.</p>
                     <a href="#" class="button">Explore history</a>
                 </div>
 
@@ -178,7 +171,9 @@ $json_decoded = json_decode($json,TRUE);
                             46.6405 18.816 45.964 18.3989 45.5466Z" />
                     </svg>
                     <h3 class="services__title">Berkesinambungan & Tepercaya</h3>
-                    <p class="services__description">Berkesinambungan dan Tepercaya adalah dua tujuan kami, untuk menjadi Notaris terbaik di Kota Pasuruan. Komitmen kami akan kualitas dan layanan adalah landasan untuk membangun tradisi keunggulan dan memberikan nilai tambah bagi klien.</p>
+                    <p class="services__description">Berkesinambungan dan Tepercaya adalah dua tujuan kami, untuk
+                        menjadi Notaris terbaik di Kota Pasuruan. Komitmen kami akan kualitas dan layanan adalah
+                        landasan untuk membangun tradisi keunggulan dan memberikan nilai tambah bagi klien.</p>
                 </div>
 
                 <div class="services__content">
@@ -341,7 +336,10 @@ $json_decoded = json_decode($json,TRUE);
                         </defs>
                     </svg>
                     <h3 class="services__title">Komitmen Layanan</h3>
-                    <p class="services__description">Bagi kami, klien adalah salah satu prioritas utama kami. Kantor kami didirikan atas dasar komitmen keunggulan layanan. Kami berupaya memahami kebutuhan klien dan merespon setiap permintaan secara proaktif. Dengan mengutamakan kepuasan klien, kami memastikan klien mendapat produk berkualitas dan layanan terbaik.</p>
+                    <p class="services__description">Bagi kami, klien adalah salah satu prioritas utama kami. Kantor
+                        kami didirikan atas dasar komitmen keunggulan layanan. Kami berupaya memahami kebutuhan klien
+                        dan merespon setiap permintaan secara proaktif. Dengan mengutamakan kepuasan klien, kami
+                        memastikan klien mendapat produk berkualitas dan layanan terbaik.</p>
                 </div>
 
                 <div class="services__content">
@@ -398,7 +396,8 @@ $json_decoded = json_decode($json,TRUE);
                         </defs>
                     </svg>
                     <h3 class="services__title">Chat Bantuan 24/7/365</h3>
-                    <p class="services__description">Kami siap membantu Anda dalam mengatasi berbagai permasalahan. Kapan pun Anda butuh bantuan, segera hubungi kami.</p>
+                    <p class="services__description">Kami siap membantu Anda dalam mengatasi berbagai permasalahan.
+                        Kapan pun Anda butuh bantuan, segera hubungi kami.</p>
                 </div>
             </div>
         </section>
@@ -476,7 +475,8 @@ $json_decoded = json_decode($json,TRUE);
                 <div class="contact__data">
                     <span class="section-subtitle contact__initial">Let's talk</span>
                     <h2 class="section-title contact__initial">Contact us</h2>
-                    <p class="contact__description">Jika Anda ingin berkonsultasi di kantor kami, hubungi kami dan kami akan segera melayani Anda, dengan layanan obrolan 24/7 kami.</p>
+                    <p class="contact__description">Jika Anda ingin berkonsultasi di kantor kami, hubungi kami dan kami
+                        akan segera melayani Anda, dengan layanan obrolan 24/7 kami.</p>
                 </div>
 
                 <div class="contact__button">
@@ -576,8 +576,9 @@ $json_decoded = json_decode($json,TRUE);
         };
     </script>
     <script>
-    var date = new Date();
-    document.getElementById("cp").innerHTML = "Copyright &#169; " + date.getFullYear() + " Notaris Nurul Fadilah, S.H. All Rights Reserved.";
+        var date = new Date();
+        document.getElementById("cp").innerHTML = "Copyright &#169; " + date.getFullYear() +
+            " Notaris Nurul Fadilah, S.H. All Rights Reserved.";
     </script>
 </body>
 

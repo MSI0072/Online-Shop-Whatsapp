@@ -7,28 +7,31 @@ $json_decoded = json_decode($json,TRUE);
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8">    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NOTARIS NURUL FADILAH, S.H.</title>
     <!-- Primary Meta Tags -->
     <title>Meta Tags — Preview, Edit and Generate</title>
     <meta name="title" content="NOTARIS NURUL FADILAH, S.H.">
-    <meta name="description" content="NOTARIS NURUL FADILAH, S.H. - Pejabat Pembuat Akta Tanah">
-    <meta name="keywords" content="NOTARIS, PPAT, SERTIFIKAT TANAH">
-    <meta name="author" content="NURUL FADILAH">
+    <meta name="description" content="Website resmi Pejabat Pembuat Akta Tanah - Notaris Nurul Fadilah, S.H">
+    <meta name="keywords" content="notaris, ppat, pejabat pembuat akta tanah, sertifikat tanah, nurul fadilah">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="author" content="Nurul Fadilah">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://nurulfadilah.herokuapp.com/">
     <meta property="og:title" content="NOTARIS NURUL FADILAH, S.H.">
-    <meta property="og:description" content="NOTARIS NURUL FADILAH, S.H. - Pejabat Pembuat Akta Tanah">
+    <meta property="og:description" content="Website resmi Pejabat Pembuat Akta Tanah - Notaris Nurul Fadilah, S.H">
     <meta property="og:image" content="assets/img/notaris.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://nurulfadilah.herokuapp.com/">
     <meta property="twitter:title" content="NOTARIS NURUL FADILAH, S.H.">
-    <meta property="twitter:description" content="NOTARIS NURUL FADILAH, S.H. - Pejabat Pembuat Akta Tanah">
+    <meta property="twitter:description" content="Website resmi Pejabat Pembuat Akta Tanah - Notaris Nurul Fadilah, S.H">
     <meta property="twitter:image" content="assets/img/notaris.png">
 
     <!--========== BOX ICONS ==========-->

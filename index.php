@@ -49,17 +49,8 @@ $json_decoded = json_decode($json,TRUE);
 <link rel="icon" href="assets/img/notaris.png" sizes="192x192" />
 <link rel="apple-touch-icon" href="assets/img/notaris.png" />
 <meta name="msapplication-TileImage" content="assets/img/notaris.png" />
-<meta name="google-site-verification" content="Yl_e87WYpkkY0EylbwwHfaWa1AMSYDueXlDwUz9Uwdk" />
 </head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-6S03V4DLW2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-6S03V4DLW2');
-</script>
 <body>
 
     <!--========== SCROLL TOP ==========-->
@@ -539,7 +530,7 @@ $json_decoded = json_decode($json,TRUE);
             </div>
         </div>
 
-        <p class="footer__copy">&#169; 2021 Notaris Nurul Fadilah, S.H. . All right reserved</p>
+        <p class="footer__copy" id="cp">&#169; 2021 Notaris Nurul Fadilah, S.H. . All right reserved</p>
     </footer>
 
     <!--========== SCROLL REVEAL ==========-->
@@ -583,6 +574,10 @@ $json_decoded = json_decode($json,TRUE);
                 location.href = url_wa + '?phone=' + '62881026575149' + '&text=' + text;
             };
         };
+    </script>
+    <script>
+    var date = new Date();
+    document.getElementById("cp").innerHTML = "Copyright &#169; " + date.getFullYear() + " Notaris Nurul Fadilah, S.H. All Rights Reserved.";
     </script>
 </body>
 

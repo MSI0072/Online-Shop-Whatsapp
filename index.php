@@ -7,7 +7,7 @@ $json_decoded = json_decode($json,TRUE);
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">    
+    <meta charset="UTF-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NOTARIS NURUL FADILAH, S.H.</title>
@@ -31,7 +31,8 @@ $json_decoded = json_decode($json,TRUE);
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://nurulfadilah.herokuapp.com/">
     <meta property="twitter:title" content="NOTARIS NURUL FADILAH, S.H.">
-    <meta property="twitter:description" content="Website resmi Pejabat Pembuat Akta Tanah - Notaris Nurul Fadilah, S.H">
+    <meta property="twitter:description"
+        content="Website resmi Pejabat Pembuat Akta Tanah - Notaris Nurul Fadilah, S.H">
     <meta property="twitter:image" content="assets/img/notaris.png">
 
     <!--========== BOX ICONS ==========-->
@@ -44,7 +45,7 @@ $json_decoded = json_decode($json,TRUE);
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
         integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous">
     </script>
-
+<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <!--========== CSS ==========-->
     <link rel="stylesheet" href="assets/css/styles.css">
 
@@ -64,7 +65,7 @@ $json_decoded = json_decode($json,TRUE);
     <!--========== HEADER ==========-->
     <header class="l-header" id="header">
         <nav class="nav bd-container">
-            <a href="../" class="nav__logo">NOTARIS NURUL FADILAH, S.H.</a>
+            <a href="./" class="nav__logo">NOTARIS NURUL FADILAH, S.H.</a>
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
@@ -434,28 +435,88 @@ $json_decoded = json_decode($json,TRUE);
                     <a class="button menu__button" data-bs-toggle="collapse" href="#<?php echo $result['href']; ?>"
                         role="button"><i class='bx bx-cart-alt'></i></a>
                     <div class="collapse" id="<?php echo $result['href']; ?>">
-                        <input type="hidden" id="getnomor" name="getnomor" value="<?php echo $index; ?>">
-                        <input type="hidden" id="name" name="name" value="<?php echo $result['nama']; ?>">
-                        <input type="hidden" id="harga" name="harga" onkeyup="sum();"
-                            value="<?php echo $result['harga']; ?>">
-                        <input type="hidden" id="deskripsi" name="deskripsi" onkeyup="sum();"
-                            value="<?php echo $result['deskripsi']; ?>">
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Total Pesanan</label>
-                            <input type="number" class="form-control" id="totalpesanan" name="totalpesanan"
-                                onkeyup="sum();" aria-describedby="emailHelp" required>
+                        <div class="btn-group">
+                            <button class="btn btn-outline-secondary dropdown-toggle" type="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Jenis</button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" data-bs-toggle="collapse" href="#janji" id="janji"
+                                        name="janji">Janji Temu</a></li>
+                                <li><a class="dropdown-item" data-bs-toggle="collapse" href="#konsultasi"
+                                        id="konsultasi" name="konsultasi">Konsultasi</a></li>
+                            </ul>
                         </div>
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Total Harga</label>
-                            <input type="number" class="form-control" id="totalharga" name="totalharga"
-                                aria-describedby="emailHelp" disabled>
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label">Keterangan</label>
-                            <textarea class="form-control" id="keterangan" rows="3" name="keterangan"
-                                required></textarea>
-                        </div>
-                        <button name="submitButton" id="submitButton" class="btn btn-primary">ORDER</button>
+                        <form action="redirect.php" method="GET">
+                            <div class="collapse" id="janji">
+                                <input type="hidden" id="tipe" name="tipe" value="<?php echo $result['nama']; ?>">
+                                <input type="hidden" id="ug" name="ug">
+                                <div class="mb-3">
+                                    <label for="exampleInputName" class="form-label">Nama</label>
+                                    <input type="text" class="form-control" id="name" name="name"
+                                        aria-describedby="name" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="email" name="email"
+                                        aria-describedby="emailHelp" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputTlp" class="form-label">No Tlp</label>
+                                    <input type="number" class="form-control" id="tlp" name="tlp" aria-describedby="tlp"
+                                        required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputTlp" class="form-label">Alamat</label>
+                                    <input type="text" class="form-control" id="alamat" name="alamat"
+                                        aria-describedby="alamat" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputDate" class="form-label">Janji Temu</label>
+                                    <input type="date" class="form-control" id="date" name="date"
+                                        aria-describedby="date" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Pesan</label>
+                                    <textarea class="form-control" rows="3" id="pesan" name="pesan" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                        </form>
+                        <form>
+                            <div class="collapse" id="konsultasi">
+                                <div class="mb-3">
+                                    <label for="exampleInputName" class="form-label">Nama</label>
+                                    <input type="text" class="form-control" id="name_konsultasi" name="name_konsultasi"
+                                        aria-describedby="name" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="email_konsultasi"
+                                        name="email_konsultasi" aria-describedby="emailHelp" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputTlp" class="form-label">No Tlp</label>
+                                    <input type="number" class="form-control" id="tlp_konsultasi" name="tlp_konsultasi"
+                                        aria-describedby="tlp" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputAlamat" class="form-label">Alamat</label>
+                                    <input type="text" class="form-control" id="alamat_konsultasi"
+                                        name="alamat_konsultasi" aria-describedby="alamat" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputDate" class="form-label">Tanggal</label>
+                                    <input type="date" class="form-control" id="date_konsultasi" name="date_konsultasi"
+                                        aria-describedby="date" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Pesan</label>
+                                    <textarea class="form-control" rows="3" id="pesan_konsultasi"
+                                        name="pesan_konsultasi" required></textarea>
+                                </div>
+                                <button name="submitButtonkonsultasi" id="submitButtonkonsultasi"
+                                    class="btn btn-primary">Submit</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
                 <?php   
@@ -543,7 +604,7 @@ $json_decoded = json_decode($json,TRUE);
             </div>
         </div>
 
-        <p class="footer__copy" id="cp">&#169; 2021 Notaris Nurul Fadilah, S.H. . All right reserved</p>
+        <p class="footer__copy" id="cp"></p>
     </footer>
 
     <!--========== SCROLL REVEAL ==========-->
@@ -555,38 +616,18 @@ $json_decoded = json_decode($json,TRUE);
     <!--========== ORDER FUNTION ==========-->
 
     <script>
-        function sum() {
-            for (let i = 0; i < document.getElementsByName('harga').length; i++) {
-                var getnomor = document.getElementsByName('getnomor')[i].value;
-                var txtFirstNumberValue = document.getElementsByName('harga')[getnomor].value;
-                var txtSecondNumberValue = document.getElementsByName('totalpesanan')[getnomor].value;
-                var result = parseInt(txtFirstNumberValue) * parseInt(txtSecondNumberValue);
-                if (!isNaN(result)) {
-                    document.getElementsByName('totalharga')[getnomor].value = result;
-                };
+        $(document).ready(function () {
+            var url_wa = 'https://web.whatsapp.com/send?phone=62881026575149';
+            if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                url_wa = 'whatsapp://send/?phone=62881026575149';
+                $('input[name="ug"]').each(function name() {
+                $(this).val(url_wa);
+            });
             };
-        };
-    </script>
-    <script>
-        for (let i = 0; i < document.getElementsByName('submitButton').length; i++) {
-            document.getElementsByName('submitButton')[i].onclick = function () {
-                var name = document.getElementsByName('name')[i].value,
-                    deskripsi = document.getElementsByName('deskripsi')[i].value,
-                    harga = document.getElementsByName('harga')[i].value,
-                    totalpesanan = document.getElementsByName('totalpesanan')[i].value,
-                    keterangan = document.getElementsByName('keterangan')[i].value,
-                    totalharga = document.getElementsByName('totalharga')[i].value;
-                var text = "Halo admin saya ingin memesan%0A%0A➸ *Nama Produk :* " + name + "%0A➸ *Deskripsi :* " +
-                    deskripsi +
-                    "%0A➸ *Harga :* " + harga + "%0A%0A========================" + "%0A%0A➸ *Total pesanan :* " +
-                    totalpesanan + "%0A➸ *Keterangan :* " + keterangan + "%0A➸ *Total harga :* " + totalharga;
-                var url_wa = 'https://web.whatsapp.com/send';
-                if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-                    url_wa = 'whatsapp://send/';
-                }
-                location.href = url_wa + '?phone=' + '62881026575149' + '&text=' + text;
-            };
-        };
+            $('input[name="ug"]').each(function name() {
+                $(this).val(url_wa);
+            });
+        });
     </script>
     <script>
         var date = new Date();

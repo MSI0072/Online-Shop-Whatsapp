@@ -1,21 +1,24 @@
 [
     {
-        "nama" : "Barbecue salad",
-        "deskripsi" : "Delicious dish",
-        "harga" : "22000",
+        "nama" : "Akta Notaris",
+        "deskripsi" : "",
+        "data" :[ "Pembuatan Akta-Akta Perusahaan.","Pembuatan Akta Pemindahan Tanah dan Bangunan.","Pembuatan Akta Pendirian Perseroan, Perubahan Anggaran Dasar. Peralihan Hak atas Saham, Merger, Akuisisi, dan Pembubaran.","Pembuatan Akta Pendirian Yayasan, Perubahan Anggaran Dasar dan Penggabungan.","Pembuatan Akta Pendirian Koperasi, Partai Politik, Lembaga Sosial.","Pembuatan Akta Perseroan Terbuka.","Pembuatan Akta Perseroan Penanaman Modal Asing (PMA).","Pembuatan Akta Perseroan Penanaman Modal Dalam Negeri (PMDN).","Pembuatan Akta Kerjasama.","Pembuatan Akta Perjanjian Sindikasi.","Pembuatan Akta Perjanjian Penjaminan dan Kerjasama antar Perusahaan Mikro.","Legalisasi."],
+        "harga" : "x.xxx.xxxx",
         "link"  : "assets/img/plate1.png",
         "href" : "data1"
     },
     {
-        "nama" : "Salad with fish",
-        "deskripsi" : "Delicious dish",
-        "harga" : "12000",
+        "nama" : "Akta PPAT",
+        "deskripsi" : "",
+        "data" : ["Akta Hibah.","Akta Jual Beli.","Akta Tukar Menukar.","Akta Pemberian Hak Tanggungan (APHT).","Akta Surat Kuasa Membebankan Hak Tanggungan (SKMHT).","Akta Pembagian Hak Bersama."],
+        "harga" : "x.xxx.xxxx",
         "link"  : "assets/img/plate2.png",
         "href" : "data2"
     },
     {
-        "nama" : "Spinach salad",
-        "deskripsi" : "Delicious dish",
+        "nama" : "Jasa Lainnya",
+        "deskripsi" : "",
+        "data" : ["Pembuatan Sertifikat Tanah.","Pemecahan Sertifikat.","Balik Nama Sertifikat.","Perpanjangan Sertifikat.Pembuatan SIUP dan TDP.","Pembuatan Domisili Perusahaan.","Pembuatan NPWP.","Pengesahan Akta Pendirian PT / CV / PD / Koperasi / Yayasan / dll."],
         "harga" : "9500",
         "link"  : "assets/img/plate3.png",
         "href" : "data3"

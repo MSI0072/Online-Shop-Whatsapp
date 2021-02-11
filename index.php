@@ -958,6 +958,7 @@ $json_decoded = json_decode($json,TRUE);
         document.getElementById("cp").innerHTML = "Copyright &#169; " + date.getFullYear() +
             " Notaris Nurul Fadilah, S.H. All Rights Reserved.";
     </script>
+    <script id="_wau07w">var _wau = _wau || []; _wau.push(["tab", "4nq2920v2h", "07w", "left-upper"]);</script><script async src="//waust.at/t.js"></script>
 </body>
 
 </html>

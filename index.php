@@ -45,7 +45,7 @@ $json_decoded = json_decode($json,TRUE);
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
         integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous">
     </script>
-<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <!--========== CSS ==========-->
     <link rel="stylesheet" href="assets/css/styles.css">
 
@@ -432,22 +432,17 @@ $json_decoded = json_decode($json,TRUE);
                     <h3 class="menu__name"><?php echo $result['nama']; ?></h3>
                     <span class="menu__detail"><?php echo $result['deskripsi']; ?></span>
                     <span class="menu__preci"><?php echo $result['harga']; ?></span>
-                    <a class="button menu__button" data-bs-toggle="collapse" href="#<?php echo $result['href']; ?>"
-                        role="button"><i class='bx bx-cart-alt'></i></a>
+                    <a class="button menu__button btn btn-primary" href="#<?php echo $result['href']; ?>"
+                        data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample"><i
+                            class='bx bx-cart-alt'></i></a>
                     <div class="collapse" id="<?php echo $result['href']; ?>">
-                        <div class="btn-group">
-                            <button class="btn btn-outline-secondary dropdown-toggle" type="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">Jenis</button>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" data-bs-toggle="collapse" href="#janji" id="janji"
-                                        name="janji">Janji Temu</a></li>
-                                <li><a class="dropdown-item" data-bs-toggle="collapse" href="#konsultasi"
-                                        id="konsultasi" name="konsultasi">Konsultasi</a></li>
-                            </ul>
-                        </div>
-                        <form action="redirect.php" method="GET">
-                            <div class="collapse" id="janji">
-                                <input type="hidden" id="tipe" name="tipe" value="<?php echo $result['nama']; ?>">
+                        <form action="redirect.php" method="POST">
+                                <select class="form-select form-select-sm" aria-label=".form-select-sm example" name="jenis" data-trigger="">
+                                    <option selected>Tipe</option>
+                                    <option value="1">Janji Temu</option>
+                                    <option value="2">Konsultasi</option>
+                                </select>
+                                <input type="hidden" id="produk" name="produk" value="<?php echo $result['nama']; ?>">
                                 <input type="hidden" id="ug" name="ug">
                                 <div class="mb-3">
                                     <label for="exampleInputName" class="form-label">Nama</label>
@@ -475,47 +470,10 @@ $json_decoded = json_decode($json,TRUE);
                                         aria-describedby="date" required>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="exampleFormControlTextarea1" class="form-label">Pesan</label>
-                                    <textarea class="form-control" rows="3" id="pesan" name="pesan" required></textarea>
+                                    <label for="exampleFormControlTextarea1" class="form-label">Note</label>
+                                    <textarea class="form-control" rows="3" id="note" name="note" required></textarea>
                                 </div>
                                 <button type="submit" class="btn btn-primary">Submit</button>
-                            </div>
-                        </form>
-                        <form>
-                            <div class="collapse" id="konsultasi">
-                                <div class="mb-3">
-                                    <label for="exampleInputName" class="form-label">Nama</label>
-                                    <input type="text" class="form-control" id="name_konsultasi" name="name_konsultasi"
-                                        aria-describedby="name" required>
-                                </div>
-                                <div class="mb-3">
-                                    <label for="exampleInputEmail" class="form-label">Email</label>
-                                    <input type="email" class="form-control" id="email_konsultasi"
-                                        name="email_konsultasi" aria-describedby="emailHelp" required>
-                                </div>
-                                <div class="mb-3">
-                                    <label for="exampleInputTlp" class="form-label">No Tlp</label>
-                                    <input type="number" class="form-control" id="tlp_konsultasi" name="tlp_konsultasi"
-                                        aria-describedby="tlp" required>
-                                </div>
-                                <div class="mb-3">
-                                    <label for="exampleInputAlamat" class="form-label">Alamat</label>
-                                    <input type="text" class="form-control" id="alamat_konsultasi"
-                                        name="alamat_konsultasi" aria-describedby="alamat" required>
-                                </div>
-                                <div class="mb-3">
-                                    <label for="exampleInputDate" class="form-label">Tanggal</label>
-                                    <input type="date" class="form-control" id="date_konsultasi" name="date_konsultasi"
-                                        aria-describedby="date" required>
-                                </div>
-                                <div class="mb-3">
-                                    <label for="exampleFormControlTextarea1" class="form-label">Pesan</label>
-                                    <textarea class="form-control" rows="3" id="pesan_konsultasi"
-                                        name="pesan_konsultasi" required></textarea>
-                                </div>
-                                <button name="submitButtonkonsultasi" id="submitButtonkonsultasi"
-                                    class="btn btn-primary">Submit</button>
-                            </div>
                         </form>
                     </div>
                 </div>
@@ -621,8 +579,8 @@ $json_decoded = json_decode($json,TRUE);
             if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
                 url_wa = 'whatsapp://send/?phone=62881026575149';
                 $('input[name="ug"]').each(function name() {
-                $(this).val(url_wa);
-            });
+                    $(this).val(url_wa);
+                });
             };
             $('input[name="ug"]').each(function name() {
                 $(this).val(url_wa);
